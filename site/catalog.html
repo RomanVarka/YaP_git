@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог поставщиков</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Каталог поставщиков</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="prices.html">Цены</a>
+      <a href="analytics.html">Аналитика</a>
+      <a href="login.html">Вход</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <input type="text" id="search" placeholder="Поиск по названию">
+      <div id="filters">
+        <select id="categoryFilter">
+          <option value="">Все категории</option>
+        </select>
+        <select id="regionFilter">
+          <option value="">Все регионы</option>
+        </select>
+      </div>
+      <div id="supplierList" class="card-grid"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 FMCG Portal</p>
+  </footer>
+</body>
+</html>
